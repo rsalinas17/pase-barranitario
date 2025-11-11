@@ -100,10 +100,10 @@ const subtitulo = css`
 
 // markup
 const PasePage = () => {
-    const [nombre, setNombre] = useQueryParam("nombre", StringParam);
-    const [apellido, setApellido] = useQueryParam("apellido", StringParam);
-    const [dni, setDni] = useQueryParam("dni", StringParam);
-    const [nacimiento, setNacimiento] = useQueryParam("nacimiento", StringParam);
+    const [nombre, setNombre] = useQueryParam("Rafael", StringParam);
+    const [apellido, setApellido] = useQueryParam("Salinas", StringParam);
+    const [dni, setDni] = useQueryParam("35467104", StringParam);
+    const [nacimiento, setNacimiento] = useQueryParam("15/12/1990", StringParam);
     const [donde, setdonde] = useQueryParam("donde", StringParam);
     const [tipoVacuna1, setTipoVacuna1] = useQueryParam("tipoVacuna1", StringParam);
     const [tipoVacuna2, setTipoVacuna2] = useQueryParam("tipoVacuna2", StringParam);
